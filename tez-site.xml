@@ -1,0 +1,18 @@
+<configuration>
+<property>
+  <name>fs.default.name</name>
+  <value>file:///</value>
+</property>
+<property>
+  <name>tez.local.mode</name>
+  <value>true</value>
+</property>
+<property>
+  <name>tez.runtime.optimize.local.fetch</name>
+  <value>true</value>
+</property>
+<property>
+  <name>tez.libs.uris</name>
+  <value>/tez/apache-tez-0.9.2-bin/,/tez/apache-tez-0.9.2-bin/lib/</value>
+</property>
+</configuration>
